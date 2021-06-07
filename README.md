@@ -9,8 +9,3 @@ Skuteczność około 76%. (Spowodowane jest to niewielką ilością zdjęć do u
 ![](images/fall-01-cam0-rgb-102.png)
 ![](images/ofall-01-cam0-rgb-121.png)
 ![](images/fall-01-cam0-rgb-121.png)
-
-
-pip list -v | grep detectron2
-
-cd ~/python3.x/site-packages/detectron2/utils/visualizer.py
