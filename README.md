@@ -1,8 +1,8 @@
 # Detectron binary mask detection
-### This project allows you to generate person binary mask using [detectron2](https://github.com/facebookresearch/detectron2)v0.4
-### It is recommended to create a bigger people annotated dataset to get better results
+#### This project allows you to generate person binary mask using [detectron2](https://github.com/facebookresearch/detectron2)v0.4
+#### It is recommended to create a bigger people annotated dataset to get better results
+##### Example of using detection rgb falling person image
 ![Alt Text](binary_mask_detection.gif)
-##### example of using detection rgb falling person image
 ### Technologies:
 * Python 3.8+
 * Detectron2 v0.4 [detectron_releases](https://github.com/facebookresearch/detectron2/releases)
