@@ -7,6 +7,20 @@
 * Python 3.8+
 * Detectron2 v0.4 [detectron_releases](https://github.com/facebookresearch/detectron2/releases)
 * Windows or Linux (in Linux you have to change paths "\\" to "/" in check.py file) 
+### Instalation and getting started (Linux):
+1. Follow this tutorial [https://detectron2.readthedocs.io/en/latest/tutorials/install.html](https://detectron2.readthedocs.io/en/latest/tutorials/install.html)
+2. Replace visualizer.py in detectron2\detectron2\utils provided in project
+3. Place people_dataset or your own dataset in detectron2\detectron\datasets
+4. Move train.py and check.py to main location 
+5. Run dataset training
+``` 
+pip train.py
+```
+6. Run detection and mask generation
+```
+pip check.py <image_name_folder>
+```
+
 ### Instalation and getting started (Windows):
 1. Install torch depending on your version of cuda [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
 2. Install opencv
