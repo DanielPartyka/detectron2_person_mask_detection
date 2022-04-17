@@ -91,10 +91,3 @@ except:
 	print("Wystapil problem z wczytywaniem zdjec")   
   
 print('Zapisano zdjecia z maskami do folderu: ', date)
-
-
-
-
-
-
-
