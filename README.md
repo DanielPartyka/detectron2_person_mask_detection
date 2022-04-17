@@ -18,8 +18,7 @@ pip install opencv-python
 pip install cython
 ```
 5. Install pycolotools using this tutorial [https://github.com/philferriere/cocoapi](https://github.com/philferriere/cocoapi)
-6. Edit following file detectron2\detectron2\layers\csrc\nms_rotated\nms_rotated_cuda.cu with 
-7. [https://chowdera.com/2022/03/202203021227485707.html](https://chowdera.com/2022/03/202203021227485707.html) this tutorial to fix nvcc/exe error
+6. Edit following file detectron2\detectron2\layers\csrc\nms_rotated\nms_rotated_cuda.cu with [https://chowdera.com/2022/03/202203021227485707.html](https://chowdera.com/2022/03/202203021227485707.html) this tutorial to fix nvcc/exe error
 8. Replace visualizer.py in detectron2\detectron2\utils provided in project
 9. Place people_dataset or your own dataset in detectron2\detectron\datasets
 10. Move train.py and check.py to main location 
