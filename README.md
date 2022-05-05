@@ -14,11 +14,11 @@
 4. Move train.py and check.py to main location 
 5. Run dataset training
 ``` 
-pip train.py
+python train.py
 ```
 6. Run detection and mask generation
 ```
-pip check.py <image_name_folder>
+python check.py <image_name_folder>
 ```
 
 ### Instalation and getting started (Windows):
@@ -38,10 +38,10 @@ pip install cython
 10. Move train.py and check.py to main location 
 11. Run dataset training
 ``` 
-pip train.py
+python train.py
 ```
 12. Run detection and mask generation
 ```
-pip check.py <image_name_folder>
+python check.py <image_name_folder>
 ```
 
